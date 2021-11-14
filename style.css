@@ -365,7 +365,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1007px)
 {
   .myskill{
-    padding-bottom: 600px;
+     padding-top: 540px;
     text-align: center;
   }
   h1{
