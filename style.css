@@ -1,0 +1,842 @@
+body{
+  background-color: #A9E4D7;
+}
+.first{
+  text-align: center;
+  padding-top: 30px;
+}
+.middle{
+  text-align: center;
+  padding-top: 60px;
+  margin: 60px;
+}
+.about{
+  width: 500px;
+  height: 450px;
+  margin: 0 auto 0 auto;
+}
+.hi{
+  font-size: 2.8rem;
+  color: #2F86A6;
+  font-family: 'Fruktur', cursive;
+  font-weight: lighter;
+
+  }
+.secpara{
+  font-size: 1.2rem;
+  color: #444941;
+
+  }
+  .firstline{
+    width: 100px;
+    height: 2px;
+    border-style: dotted hidden hidden hidden;
+    border-width: thick;
+    border-color: #F6F6F6;
+  }
+  .myskill{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 600px;
+    margin: 0 auto 0 auto;
+  }
+  .computer{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    float: left;
+
+  }
+  .music{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    float: right;
+
+  }
+  .thirdpara{
+    padding-bottom: 30px;
+    font-size: 1.1rem;
+    color: #444941;
+  }
+  .fourthpara{
+    padding-bottom: 30px;
+    font-size: 1.1rem;
+    color: #444941;
+  }
+.firstskill{
+    position: relative;
+    color: #2F86A6;
+    font-size: 1.5rem;
+  }
+  .secondskill{
+    position: relative;
+    color: #2F86A6;
+    font-size: 1.5rem;
+
+  }
+.firstcloud{
+  position: absolute;
+  left: 80px;
+}
+.secondcloud{
+  position: absolute;
+  right: 390px;
+}
+.thirdcloud{
+  position: absolute;
+  right: 170px;
+  top: 1px;
+}
+.fourthcloud{
+  position: absolute;
+  right: 180px;
+}
+.fifthcloud{
+  position: absolute;
+  left: 150px;
+  bottom: 450px;
+}
+h1{
+  margin-top: 150px;
+  font-size: 5.8rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  color: #2F86A6;
+  font-family: 'Shalimar', cursive;
+}
+.firstpara{
+  font-size: 1.9rem;
+  margin-top: 0px;
+  margin-left: 110px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  color:  #2F86A6;
+}
+.to{
+  font-size: 2.5rem;
+  color: #2F86A6;
+  font-family: 'Fruktur', cursive;
+
+}
+.lastt{
+  text-align: center;
+  font-size: 1.3rem;
+  color: #444941;
+  padding-bottom: 50px;
+}
+.foot{
+  text-align: center;
+  background-color: #7EB5A6;
+  height: 100px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+.btn{
+  color: white;
+  display:inline-block;
+  background-color: #11999E;
+  padding: 14px 20px;
+  margin-top: 10px;
+  border-radius: 30px;
+  text-align:center;
+  text-decoration: none;
+  font-family: serif;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.cm{
+  display: inline-block;
+  padding: 20px 14px;
+  text-decoration: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+}
+.cm:hover{
+  background-color: #11999E ;
+  color: white;
+}
+}
+a:hover{
+  color:black;
+  cursor: pointer;
+  background-color: #E4F9F5;
+}
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+{
+  h1{
+    font-size: 9rem;
+  }
+  .id{
+    width: 250px;
+    height: 250px;
+  }
+  .firstpara{
+    font-size: 2.2rem;
+    margin-right: 30px;
+  }
+  .hi{
+    font-size: 5.8rem;
+
+  }
+  .secpara{
+    font-size: 2.5rem;
+  }
+  .fifthcloud{
+    display: none;
+  }
+  .middle{
+    text-align: center;
+  }
+  .myskill{
+    padding-bottom: 10px;
+    padding-top: 480px;
+    text-align: center;
+  }
+  .computer{
+    padding-top: 20px;
+    float: none;
+    width: 250px;
+    height: 250px;
+  }
+  .music{
+    padding-top: 60px;
+    float: none;
+    width: 250px;
+    height: 250px;
+  }
+  .firstskill{
+    font-size: 4.2rem;
+  }
+  .secondskill{
+    font-size: 4.2rem;
+  }
+  .thirdpara{
+    font-size: 2.5rem;
+  }
+  .fourthpara{
+    padding-bottom: 3px;
+    font-size: 2.5rem;
+  }
+  .to{
+    font-size: 5.8rem;
+  }
+  .contact{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-size: 0.8rem;
+  }
+  .btn{
+    font-size: 2rem;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+  }
+  .cm{
+    padding: 40px 28px;
+    padding-bottom: 4px;
+    font-size: 2rem;
+  }
+  .foot{
+    height: 200px;
+  }
+  .last{
+    font-size: 2rem;
+    color: #fff;
+  }
+  .firstline{
+    padding-top: 2px;
+    width: 300px;
+    height: 2.5px;
+    border-style: dotted hidden hidden hidden;
+    border-width: thick;
+    border-color: #F6F6F6;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 360px)
+and (max-device-width : 640px)
+{
+  .myskill{
+    padding-top: 540px;
+    text-align: center;
+}
+h1{
+  font-size: 9.2rem;
+}
+.id{
+  width: 250px;
+  height: 250px;
+}
+.firstpara{
+  font-size: 2.8rem;
+  margin-right: 30px;
+}
+.hi{
+  font-size: 6rem;
+
+}
+.secpara{
+  font-size: 2.8rem;
+}
+.fifthcloud{
+  display: none;
+}
+.middle{
+  text-align: center;
+}
+.computer{
+  padding-top: 20px;
+  float: none;
+  width: 250px;
+  height: 250px;
+}
+.music{
+  padding-top: 60px;
+  float: none;
+  width: 250px;
+  height: 250px;
+}
+.firstskill{
+  font-size: 4.2rem;
+}
+.secondskill{
+  font-size: 4.2rem;
+}
+.thirdpara{
+  font-size: 2.8rem;
+}
+.fourthpara{
+  font-size: 2.8rem;
+  padding-bottom: 0;
+}
+.to{
+  padding-top: 0px;
+  font-size: 5.8rem;
+}
+.contact{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  font-size: 0.8rem;
+}
+.btn{
+  font-size: 2rem;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+.cm{
+  padding: 40px 28px;
+  padding-bottom: 4px;
+  font-size: 2rem;
+}
+.foot{
+  height: 200px;
+}
+.last{
+  font-size: 2rem;
+  color: #fff;
+}
+.firstline{
+  padding-top: 2px;
+  width: 300px;
+  height: 2.5px;
+  border-style: dotted hidden hidden hidden;
+  border-width: thick;
+  border-color: #F6F6F6;
+}
+}
+
+@media only screen
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)
+and (min-device-width : 768px)
+and (max-device-width : 1007px)
+{
+  .myskill{
+    padding-top: 540px;
+    text-align: center;
+  }
+  h1{
+  font-size: 9.5rem;
+  }
+  .id{
+  width: 250px;
+  height: 250px;
+  }
+  .firstpara{
+  font-size: 2.8rem;
+  margin-right: 30px;
+  }
+  .hi{
+  font-size: 6rem;
+
+  }
+  .secpara{
+  font-size: 2.8rem;
+  }
+  .fifthcloud{
+  display: none;
+  }
+  .middle{
+  text-align: center;
+  }
+  .computer{
+  padding-top: 20px;
+  float: none;
+  width: 250px;
+  height: 250px;
+  }
+  .music{
+  padding-top: 60px;
+  float: none;
+  width: 250px;
+  height: 250px;
+  }
+  .firstskill{
+  font-size: 4.2rem;
+  }
+  .secondskill{
+  font-size: 4.2rem;
+  }
+  .thirdpara{
+  font-size: 2.8rem;
+  }
+  .fourthpara{
+  font-size: 2.8rem;
+  padding-bottom: 0;
+  }
+  .to{
+  padding-top: 0px;
+  font-size: 5.8rem;
+  }
+  .contact{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  font-size: 0.8rem;
+  }
+  .btn{
+  font-size: 2rem;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  }
+  .cm{
+  padding: 40px 28px;
+  padding-bottom: 4px;
+  font-size: 2rem;
+  }
+  .foot{
+  height: 200px;
+  }
+  .last{
+  font-size: 2rem;
+  color: #fff;
+  }
+  .firstline{
+  padding-top: 2px;
+  width: 300px;
+  height: 2.5px;
+  border-style: dotted hidden hidden hidden;
+  border-width: thick;
+  border-color: #F6F6F6;
+  }
+
+}
+@media only screen
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1)
+and (min-device-width : 768px)
+and (max-device-width : 1007px)
+{
+  .myskill{
+    padding-top: 540px;
+    text-align: center;
+  }
+  h1{
+  font-size: 9.5rem;
+  }
+  .id{
+  width: 250px;
+  height: 250px;
+  }
+  .firstpara{
+  font-size: 2.8rem;
+  margin-right: 30px;
+  }
+  .hi{
+  font-size: 6rem;
+
+  }
+  .secpara{
+  font-size: 2.8rem;
+  }
+  .fifthcloud{
+  display: none;
+  }
+  .middle{
+  text-align: center;
+  }
+  .computer{
+  padding-top: 20px;
+  float: none;
+  width: 250px;
+  height: 250px;
+  }
+  .music{
+  padding-top: 60px;
+  float: none;
+  width: 250px;
+  height: 250px;
+  }
+  .firstskill{
+  font-size: 4.2rem;
+  }
+  .secondskill{
+  font-size: 4.2rem;
+  }
+  .thirdpara{
+  font-size: 2.8rem;
+  }
+  .fourthpara{
+  font-size: 2.8rem;
+  padding-bottom: 0;
+  }
+  .to{
+  padding-top: 0px;
+  font-size: 5.8rem;
+  }
+  .contact{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  font-size: 0.8rem;
+  }
+  .btn{
+  font-size: 2rem;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  }
+  .cm{
+  padding: 40px 28px;
+  padding-bottom: 4px;
+  font-size: 2rem;
+  }
+  .foot{
+  height: 200px;
+  }
+  .last{
+  font-size: 2rem;
+  color: #fff;
+  }
+  .firstline{
+  padding-top: 2px;
+  width: 300px;
+  height: 2.5px;
+  border-style: dotted hidden hidden hidden;
+  border-width: thick;
+  border-color: #F6F6F6;
+
+}
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+{
+  .myskill{
+    padding-top: 540px;
+    text-align: center;
+  }
+  h1{
+  font-size: 9.5rem;
+  }
+  .id{
+  width: 250px;
+  height: 250px;
+  }
+  .firstpara{
+  font-size: 2.8rem;
+  margin-right: 30px;
+  }
+  .hi{
+  font-size: 6rem;
+
+  }
+  .secpara{
+  font-size: 2.8rem;
+  }
+  .fifthcloud{
+  display: none;
+  }
+  .middle{
+  text-align: center;
+  }
+  .computer{
+  padding-top: 20px;
+  float: none;
+  width: 250px;
+  height: 250px;
+  }
+  .music{
+  padding-top: 60px;
+  float: none;
+  width: 250px;
+  height: 250px;
+  }
+  .firstskill{
+  font-size: 4.2rem;
+  }
+  .secondskill{
+  font-size: 4.2rem;
+  }
+  .thirdpara{
+  font-size: 2.8rem;
+  }
+  .fourthpara{
+  font-size: 2.8rem;
+  padding-bottom: 0;
+  }
+  .to{
+  padding-top: 0px;
+  font-size: 5.8rem;
+  }
+  .contact{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  font-size: 2rem;
+  }
+  .btn{
+  font-size: 2rem;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  }
+  .cm{
+  padding: 40px 28px;
+  padding-bottom: 4px;
+  font-size: 2rem;
+  }
+  .foot{
+  height: 200px;
+  }
+  .last{
+  font-size: 2rem;
+  color: #fff;
+  }
+  .firstline{
+  padding-top: 2px;
+  width: 300px;
+  height: 2.5px;
+  border-style: dotted hidden hidden hidden;
+  border-width: thick;
+  border-color: #F6F6F6;
+}
+}
+
+/*@media only screen
+and (min-width: 1030px)
+and (max-width: 1366px)
+{
+  .myskill{
+    padding-top: 540px;
+    text-align: center;
+  }
+  h1{
+  font-size: 9.5rem;
+  }
+  .id{
+  width: 250px;
+  height: 250px;
+  }
+  .firstpara{
+  font-size: 2.8rem;
+  margin-right: 30px;
+  }
+  .hi{
+  font-size: 6rem;
+
+  }
+  .secpara{
+  font-size: 2.8rem;
+  }
+  .fifthcloud{
+  display: none;
+  }
+  .middle{
+  text-align: center;
+  }
+  .computer{
+  padding-top: 20px;
+  float: none;
+  width: 250px;
+  height: 250px;
+  }
+  .music{
+  padding-top: 60px;
+  float: none;
+  width: 250px;
+  height: 250px;
+  }
+  .firstskill{
+  font-size: 4.2rem;
+  }
+  .secondskill{
+  font-size: 4.2rem;
+  }
+  .thirdpara{
+  font-size: 2.8rem;
+  }
+  .fourthpara{
+  font-size: 2.8rem;
+  padding-bottom: 0;
+  }
+  .to{
+  padding-top: 0px;
+  font-size: 5.8rem;
+  }
+  .contact{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  font-size: 2rem;
+  }
+  .btn{
+  font-size: 2rem;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  }
+  .cm{
+  padding: 40px 28px;
+  padding-bottom: 4px;
+  font-size: 2rem;
+  }
+  .foot{
+  height: 200px;
+  }
+  .last{
+  font-size: 2rem;
+  color: #fff;
+  }
+  .firstline{
+  padding-top: 2px;
+  width: 300px;
+  height: 2.5px;
+  border-style: dotted hidden hidden hidden;
+  border-width: thick;
+  border-color: #F6F6F6;
+}
+}
+/* @media only screen
+and (min-width: 1370px)
+and (max-width: 1605px)
+{
+  .myskill{
+    padding-top: 540px;
+    text-align: center;
+  }
+  h1{
+  font-size: 9.5rem;
+  }
+  .id{
+  width: 250px;
+  height: 250px;
+  }
+  .firstpara{
+  font-size: 2.8rem;
+  margin-right: 30px;
+  }
+  .hi{
+  font-size: 6rem;
+
+  }
+  .secpara{
+  font-size: 2.8rem;
+  }
+  .fifthcloud{
+  display: none;
+  }
+  .middle{
+  text-align: center;
+  }
+  .computer{
+  padding-top: 20px;
+  float: none;
+  width: 250px;
+  height: 250px;
+  }
+  .music{
+  padding-top: 60px;
+  float: none;
+  width: 250px;
+  height: 250px;
+  }
+  .firstskill{
+  font-size: 4.2rem;
+  }
+  .secondskill{
+  font-size: 4.2rem;
+  }
+  .thirdpara{
+  font-size: 2.8rem;
+  }
+  .fourthpara{
+  font-size: 2.8rem;
+  padding-bottom: 0;
+  }
+  .to{
+  padding-top: 0px;
+  font-size: 5.8rem;
+  }
+  .contact{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  font-size: 2rem;
+  }
+  .btn{
+  font-size: 2rem;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  }
+  .cm{
+  padding: 40px 28px;
+  padding-bottom: 4px;
+  font-size: 2rem;
+  }
+  .foot{
+  height: 200px;
+  }
+  .last{
+  font-size: 2rem;
+  color: #fff;
+  }
+  .firstline{
+  padding-top: 2px;
+  width: 300px;
+  height: 2.5px;
+  border-style: dotted hidden hidden hidden;
+  border-width: thick;
+  border-color: #F6F6F6;
+}
+}
