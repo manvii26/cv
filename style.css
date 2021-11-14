@@ -195,7 +195,7 @@ and (max-device-width : 480px)
   }
   .myskill{
     padding-bottom: 10px;
-    padding-top: 480px;
+    padding-top: 578px;
     text-align: center;
   }
   .computer{
@@ -267,7 +267,7 @@ and (min-device-width : 360px)
 and (max-device-width : 640px)
 {
   .myskill{
-    padding-top: 540px;
+    padding-top: 600px;
     text-align: center;
 }
 h1{
@@ -365,7 +365,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1007px)
 {
   .myskill{
-    padding-top: 540px;
+    padding-bottom: 600px;
     text-align: center;
   }
   h1{
@@ -463,7 +463,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1007px)
 {
   .myskill{
-    padding-top: 540px;
+    padding-top: 590px;
     text-align: center;
   }
   h1{
@@ -559,7 +559,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 {
   .myskill{
-    padding-top: 540px;
+    padding-top: 590px;
     text-align: center;
   }
   h1{
